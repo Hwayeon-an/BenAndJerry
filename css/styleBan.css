@@ -1,0 +1,1088 @@
+@charset "UTF-8";
+/* 🍓 */
+@media screen and (max-width:1440px){
+  header > .inner {
+    padding:0 54px;
+  }
+  /* 메인 빌보드 */
+  #main_banner_container {
+    height:913px; /*94% 116%*/
+    background:url("../images/mainBanner_img1200.png") bottom/cover;
+  }
+  #main_banner_container > .inner {
+    padding:0 54px;
+  }
+  .mainBanner_txt {top:140px;}
+  .mainBanner_txt > h1 {font-size:110px;}
+  .mainB_p_more { gap:120px; }
+  .mainB_p_more > p {
+    font-size:18px;
+    width:fit-content; /* flex를 column으로 주면 width100%문제를 이걸로 해결 */
+  }
+  .mainB_ice_img1 {
+    width:34%;
+    /* bottom:18%; */
+  }
+  .mainB_ice_img2 {
+    width:29%;
+    /* bottom:160px;
+    left:24px; */
+  }
+  /*.mainB_cloud_img1 {
+    top:42px;
+  }
+   .mainB_cloud_img2 {
+    top:142px;
+  } 
+  .mainB_cloud_img3 {
+    top:494px;
+    right:334px;
+  }
+  .mainB_cloud_img4 {
+    bottom:160px;
+    right:84px;
+  }
+  .mainB_cloud_img5 {
+    left:42px;
+    bottom:240px;
+  }*/
+  .mainB_cow_img1{
+    left:340px;
+    bottom:75px;
+  }
+  .mainB_cow_img2{
+    right:350px;
+    bottom:90px;
+  }
+  .mainB_p_more {
+    margin-top:16px;
+    flex-direction: column;
+    gap:42px;
+  }
+  .mainB_p_more > a {
+    padding-left:8px;
+  }
+}
+
+
+
+
+
+/* 🍓 */
+@media screen and (max-width:1240px){
+  /* .mainB_ice_img1 {
+    bottom:20%;
+  }
+  .mainB_cloud_img2{
+    top:32%;
+  } */
+}
+
+
+
+
+
+/* 🍓 */
+@media screen and (max-width:1200px){
+  /*header*/
+  header > .inner {
+    padding:0 108px;
+  }
+  .header_gnb {
+    padding:0 32px;
+    gap:24px;
+  }
+  .menu_search {
+    gap:24px;
+    width:100%;
+    justify-content: flex-end;
+  }
+  #main_banner_container > .inner {
+    padding:0 108px;
+  }
+  .mainBanner_txt > h1{
+    font-size:100px;
+  }
+  .mainB_p_more {
+    flex-direction: column;
+    gap:42px;
+  }
+  .mainB_p_more > p {
+    font-size:16px;
+  }
+
+  /**/
+  /* sec1 :: 참여하기&받아보기 */
+  #pc_sec1_container > .inner {
+    padding:0 108px;
+  }
+  .sec1_left_box  {
+    padding:66px 32px;
+  }
+  .get_icecream_wrap {
+    gap:0;
+  }
+  .sec1_left_box > div > h1 {
+    font-size:28px;
+  }
+  .sec1_doit_wrap {
+    gap:40px;
+  }
+  .sec1_doit_wrap > img {
+    width:42%;
+  }
+  .sec1_doit_contents_box > h1 {
+    font-size:28px;
+  }
+
+  /**/
+  /* 일을 사랑합니다. */
+  #sec2_ice_lov_container > .w1200 {
+    padding:0 108px;
+  }
+  .iceLov_img_box { width:85%; }
+
+  /**/
+  /* 오리지널 아이스크림 파인트 */
+  #product_list > .w1200 {
+    padding:0 108px;
+  }
+  .product_list_wrap {
+    justify-content: space-between;
+  }
+  .pro_list {
+    width:31.6%;
+    height:280px;
+  }
+  .product_nameBox > h1 {
+    width:75%;
+    line-height: 1.5;
+  }
+  .product_nameBox, .product_conBox { height:248px; }
+  .product_conBox {
+    display:flex;
+    align-items:center;
+  }
+  
+  
+  /**/
+  /* 우리는 지지합니다. */
+  #we_support > .w1200 {
+    padding:0 108px;
+  }
+  .sp1Box, .sp4Box {width:40%;}
+  
+  
+  /**/
+  /* New 소식 */
+  #new_issue > .w1200 {
+    padding:0 108px;
+  }
+  .new_sw_title { font-size:18px; }
+  .new_sw_contents { font-size:16px; }
+  
+  
+  /**/
+  /* footer */
+  footer > .w1200 {
+    padding:0 108px;
+  }
+  .footer_ca {
+    margin-top:62px;
+  }
+  .footer_info {
+    margin-top:9.4%;
+  }
+}
+
+
+
+
+/* 🍓 */
+@media screen and (max-width:1084px){
+  .sec1_left_box {
+    width:40%;
+  }
+  .sec1_right_ice {
+    width:60%;
+  }
+  .sec1_right_ice > .sec1_main_ice {
+    width:100%; 
+  }
+  .sec1_cloud2 {
+    right:2%
+  }
+  .sec1_doit_wrap {
+    gap:52px;
+  }
+  .sec1_doit_wrap > img {
+    width:36%;
+  }
+  .sec1_doit_contents_box > div > p {
+    font-size:17px;
+  }
+}
+
+
+
+
+/* 🍓 */
+@media screen and (max-width:1024px){
+  #sec2_ice_lov_container > .w1200,
+  #product_list > .w1200  { padding:0 32px;}
+  header {
+    padding:0;
+  }
+  header > .inner {
+    flex-direction: column;
+    padding:0 32px;
+  }
+  .logo {
+    width:100%;
+    display:flex;
+    justify-content: center;
+    padding:30px 0;
+  }
+  .logo > a {
+    display:block;
+    width:14%;
+  }
+  .menu_search {
+    gap:42px;
+  }
+  .header_gnb {
+    padding:0 104px;
+    justify-content: center;
+    gap:42px;
+  }
+  .header_menu_search_wrap {
+    width:90%;
+  }
+  /* 메인 빌보드 */
+  #main_banner_container > .inner {
+    padding:0 32px;
+  }
+  /*text*/
+  .mainBanner_txt {
+    width:100%;
+    left:0;
+    text-align:center;
+  }
+  .mainB_p_more {
+    align-items: center;
+    margin:auto;
+    margin-top:24px;
+  }
+  /*img*/
+  #main_banner_container {
+    height:913px;
+    background:url("../images/mainBanner_img1024.png") bottom/cover;
+  }
+  .mainB_ice_img2 {
+    width:36%;
+    /* bottom:12%;
+    left:-1%; */
+  }
+  .mainB_ice_img1  {
+    width:36%;
+    /* bottom:14%; */
+  }
+  /*구름*/
+  .mainB_cloud_img1 {
+    /* left:2%; */
+    width:20%;
+  }
+  .mainB_cloud_img2 {
+    width:20%;
+    /* right:4%; */
+  }
+  /* .mainB_cloud_img3 {
+    right:22%;
+  } */
+  .mainB_cloud_img5 {
+    width:10%;
+  }
+  .mainB_cow_img1 {
+    width:16%;
+    left:34%;
+    bottom:20%;
+  }
+  .mainB_cow_img2 {
+    width:13%;
+    right:30%;
+  }
+
+  /**/
+  /**/
+  /* PC 받아보기&참여하기 */
+  #pc_sec1_container { display:none; }
+  #mo_sec1_container { display:block; margin-top:170px; }
+  #mo_sec1_container > .inner {
+    max-width:1024px;
+    padding:0 32px;
+  }
+  .mo_sec1_icecream {
+    width:100%;
+    height:436px;
+    border-radius: 60px;
+    background-color:#15397B;
+    position:relative;
+  }
+  .mo_sec1_icecream > img {
+    position: absolute;
+  }
+  .mo_sec1_IceImg {
+    left:50%; bottom:0;
+    transform:translateX(-50%);
+  }
+  .sec1_cloud1_mo {
+    top:6%;
+    left:12%;
+  }
+  .sec1_cloud2_mo {
+    bottom:6%;
+    right:16%;
+  }
+  .mo_sec1_button_boxWrap {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:20px;
+    margin-top:20px;
+  }
+  .mo_sec1_button_boxWrap > article {
+    width:50%;
+    height:322px;
+    border-radius: 60px;
+    padding:62px;
+  }
+  .mo_sec1_button_boxWrap > article:nth-child(1) { border:solid 1px rgba(0,0,0,0.1);}
+  .mo_sec1_button_boxWrap > article:nth-child(2) { background-color: var(--color-f1f2f5);}
+  .mo_sec1_button_boxWrap > article > h1 {
+    font-size:24px;
+    font-weight: 700;
+  }
+  .mo_sec1_button_boxWrap > article > div {
+    display:flex;
+    flex-direction: column;
+    gap:70px;
+  }
+  .mo_sec1_button_boxWrap > article > div > p {
+    color:#767676;
+    margin-top:20px;
+  } 
+  /*말줄임표*/
+  .mo_sec1_doit > div > p {
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow:hidden;
+  }
+  .mo_sec1_doit > div > a > p {
+    -webkit-line-clamp: 1;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow:hidden;
+  }
+
+
+  /**/
+  /**/
+  /* 일을 사랑합니다. */
+  .pc_iceLov_button_wrap {display:none;}
+  .mo_iL_btn_wrap {
+    display:block;
+    margin-top:32px;
+    display:flex;
+    justify-content: center;
+    gap:24px;
+  }
+  .mo_iL_btn_wrap > button {
+    padding:16px 28px;
+    border-radius:100px;
+    border:none; outline:none;
+    font-family:"Pretendard";
+    font-size:18px;
+    background-color:#F1F2F5;
+    position:relative;
+    overflow:hidden;
+    cursor: pointer;
+  }
+  .mo_iL_btn_wrap > button > p {
+    position:relative;
+    z-index:3;
+  }
+  .mo_iL_btn_wrap > button::before {
+    content: "";
+    display:block;
+    background-color: #ebebeb;
+    width:0;
+    height:100%;
+  
+    position:absolute;
+    right:0; top:0;
+    z-index:2;
+    transition:.4s;
+  }
+  .mo_iL_btn_wrap > button:hover::before {
+    width:100%;
+  }
+  .mo_iL_btn_wrap > button.active::before {
+    content: "";
+    display:block;
+    background-color:#f8b50b;
+    width:0;
+    height:100%;
+  
+    position:absolute;
+    right:0; top:0;
+    z-index:2;
+    transition:.4s;
+  }
+  .mo_iL_btn_wrap > button.active{
+    background-color:var(--color-main);
+    color:var(--color-black);
+  }
+  .mo_iL_btn_wrap > button.active:hover::before {
+    width:100%;
+  }
+  .iL_headerTxt {
+    text-align:center;
+  }
+  .iceLov_img_box {
+    width:100%;
+    padding:82px 72px;
+  }
+
+  /**/
+  /* 오리지널 아이스크림 파인트 */
+  .product_list_wrap { gap:15px; }
+  .pro_list { width:48%; }
+  .pro_list > div { width:40%; }
+  .list_overlay > h1 { font-size:20px; }
+  .product_nameBox > h1 {width:100%;}
+  .product_nameBox > h1 > span {
+    width:100%;
+    display:block;
+  }
+  .product_btn { margin-top:16px; }
+  .product_list_wrap { justify-content: center;}
+  .product_list_wrap { gap:20px; }
+
+  /**/
+  /* 우리는 지지합니다. */
+  #we_support > .w1200 {
+    padding:0 32px;
+  }
+
+  /**/
+  /* New 소식 */
+  #new_issue > .w1200 {
+    padding:0 32px;
+  }
+  .new_sw_title { font-size:18px; }
+  .new_sw_contents { font-size:16px; }
+
+
+  /**/
+  /* footer */
+  footer > .w1200 {
+    padding:0 32px;
+  }
+  .footer_Cl1 {left:4%;}
+  .footer_Cl2 {right:4%;}
+  .footer_cow { width:30%; }
+  .footer_info { width:80%; }
+}
+
+
+
+
+
+
+
+
+/* 🍓 */
+@media screen and (max-width:976px){
+  .header_gnb {
+    padding:0 32px;
+  }
+  .menu_search {
+    gap:24px;
+  }
+}
+
+
+
+
+/* 🍓 */
+@media screen and (max-width:840px){
+  body {overflow-x: hidden;}
+  .w1200 { padding:0 32px;}
+  /*메인 빌보드*/
+  #main_banner_container {
+    height:913px;
+    background:url("../images/mainBanner_img768.png") bottom/cover;
+  }
+  /*txt*/
+  .mainBanner_txt {
+    top:10%;
+  }
+  .mainBanner_txt > h1 {
+    font-size:82px;
+  }
+  .mainB_p_more > p {
+    font-size:14px;
+  }
+  .mainB_p_more > a {
+    font-size:18px;
+  }
+  .mainB_p_more > a img {
+    width:26px;
+  }
+  /*img*/
+  .mainB_ice_img1 {
+    width:40%;
+    /* right:0;
+    bottom:18%; */
+  }
+  .mainB_ice_img2 {
+    width:40%;
+    /* bottom:20%; */
+  }
+  /*구름*/
+  /* .mainB_cloud_img1 {
+    top:30%;
+  } */
+  .mainB_cloud_img2 {
+    display:none;
+  }
+  /* .mainB_cloud_img3 {
+    right:26%;
+    top:50%;
+  }
+  .mainB_cloud_img4 {
+    bottom:30%;
+    right:0;
+  }
+  .mainB_cloud_img5 {
+    bottom:26%;
+  } */
+  /*소*/
+  .mainB_cow_img1 {
+    width:24%;
+    left:30%;
+    bottom:16%;
+  }
+
+  /**/
+  /* 오리지널 아이스크림 파인트 */
+  .product_nameBox > h1 {
+    font-size:22px;
+  }
+}
+
+
+
+
+/* 🍓 */
+@media screen and (max-width:818px){
+  .header_gnb {
+    gap:42px;
+  }
+}
+
+
+
+
+
+/* 🍓 */
+@media screen and (max-width:768px){
+  header > .inner {
+    flex-direction:row;
+    padding:0 24px;
+    justify-content: space-between;
+  }
+  .logo {
+    width:19.5%;
+  }
+  .logo > a,
+  .logo img {
+    width:100%;
+  }
+  .header_mobile_menu {
+    display:block;
+  }
+  .header_gnb {
+    display:none;
+  }
+  .header_searchBtn_wrap {
+    width:100%;
+    display:flex;
+    gap:12px;
+  }
+  .header_menu_search_wrap {
+    display:none;
+  }
+  .menu_search {
+    width:auto;
+  }
+  /*메인빌보드 img*/
+  .mainB_cow_img2 {
+    bottom:15%;
+  }
+
+  /**/
+  /**/
+  /**/
+  /* Tablet Mobile 받아보기&참여하기 */
+  .mo_sec1_button_boxWrap > article {
+    height:144px;
+    border-radius: 40px;
+    padding:42px;
+  }
+  .mo_sec1_button_boxWrap > article > h1 { font-size:20px; }
+  .mo_sec1_button_boxWrap > article > div > p { display:none; }
+  .mo_sec1_button_boxWrap > article > div > a { margin-top:12px; }
+  .getIce_btn > p {
+    font-size:14px;
+    color:var(--color-767676);
+  }
+  .sec1_cloud1_mo { left:4%; }
+  .sec1_cloud2_mo { right:8%; }
+
+
+  /*일을 사랑합니다.*/
+  .mo_iL_btn_wrap {margin-top:42px;}
+  .iceLov_img_box {
+    padding:62px;
+    margin-top:72px;
+  }
+
+  /**/
+  /* 오리지널 아이스크림 파인트 */
+  #product_list > .w1200 {
+    padding:0 24px;
+  }
+  .product_info_wrap {
+    flex-direction: column;
+  }
+  .product_nameBox {
+    width:100%;
+    height:auto;
+    background-color:transparent;
+    padding:0;
+    text-align:center;
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .product_nameBox > h1 {
+    width:100%;
+    font-size:28px;
+  } 
+  .product_nameBox > h1 > span {
+    width:auto;
+    display:inline-block;
+  }
+  .product_btn {
+    margin-top:12px;
+  }
+  .product_conBox {
+    width:100%;
+    height:auto;
+    background-color:rgba(51, 51, 51, 0.1);
+    color:var(--color-black);
+    padding:32px 46px;
+    text-align:center;
+    border-radius: 30px;
+  }
+  .product_info_wrap {
+    gap:32px;
+  }
+  .product_list_wrap {
+    margin-top:62px;
+  }
+  .pro_list > div {
+    width:60%;
+  }
+
+
+  /**/
+  /* 우리는 지지합니다. */
+  #we_support > .w1200 {
+    padding:0 24px;
+  }
+  .support_wrap, .support_wrap2 { flex-direction: column;}
+  .spBox { width:100%; }
+  .support_wrap { margin-top:32px;}
+  .spBox { height:350px; }
+  .spBox_overlay > div > p{
+    -webkit-line-clamp: 5;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow:hidden;
+  }
+
+
+  /**/
+  /* NEW 소식 */
+  #new_issue > .w1200 {
+    padding:0 24px;
+  }
+  
+  /**/
+  /* footer */
+  footer {
+    background:url("../images/footer768.png") bottom/cover;
+    height:740px;
+    padding-top:10%;
+  }
+  .footer_Logo { width:30%; }
+  .footer_info {
+    width:100%;
+    gap:6px 16px;
+  }
+  .footer_cow {
+    width:48%;
+  }
+  .footer_ca > li:first-child { padding-left:0; }
+  .footer_ca > li:last-child { padding-right:0; }
+}
+
+
+/* 🍓 */
+@media screen and (max-width:600px){
+  .logo {
+    width:25%;
+  }
+  /*메인 빌보드*/
+  #main_banner_container {
+    height:913px;
+    background:url("../images/mainBanner_img600.png") bottom/cover;
+  }
+  .mainBanner_txt {
+    top:5%;
+    padding:0 24px;
+  }
+  .mainBanner_txt > h1 {
+    font-size:62px;
+  }
+  .mainB_p_more {
+    gap:50px;
+  }
+  /*빌보드 이미지*/
+  .mainB_ice_img1 {
+    width:65%;
+    /* right:-8%;
+    bottom:22%; */
+  }
+  .mainB_ice_img2 {
+    width:50%;
+    /* left:-3%;
+    bottom:16%; */
+  }
+  .mainB_cow_img1 {
+    width:24%;
+    transform:translateX(-50%);
+    /* left:50%;
+    bottom:12%; */
+  }
+  .mainB_cow_img2 {
+    display:none;
+  }
+  .mainB_cloud_img1 {
+    width:34%;
+    /* top:26%;
+    left:4%; */
+  }
+  /* .mainB_cloud_img3 {
+    right:32%;
+    top:46%;
+  } */
+  .mainB_cloud_img5 {
+    width:20%;
+    /* left:0;
+    bottom:20%; */
+  }
+  
+  /**/
+  /**/
+  /**/
+  /* Tablet Mobile 받아보기&참여하기 */
+  #mo_sec1_container > .inner { padding:0 24px; }
+  .mo_sec1_button_boxWrap {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .mo_sec1_icecream { height:365px; }
+  .mo_sec1_icecream > .mo_sec1_IceImg { width:76%; }
+  .sec1_cloud1_mo, .sec1_cloud2_mo {width:30%; }
+  .mo_sec1_button_boxWrap > article:nth-child(1) { width:80%; }
+  .mo_sec1_button_boxWrap > article:nth-child(2) { width:100%; }
+  .mo_sec1_button_boxWrap > article > h1 { font-size:26px; }
+  .getIce_btn { gap:8px; }
+  .getIce_btn > img { width:20px; }
+
+
+  /*일을 사랑합니다.*/
+  #sec2_ice_lov_container > .w1200 { padding:0 24px; }
+  .iL_headerTxt > h1 { font-size:26px; }
+  .iL_headerTxt > p {font-size:14px;}
+  .iceLov_img_box { margin-top:52px; }
+  .iceLov_img_box {
+    padding:62px 42px;
+    height:530px;
+  }
+  .span_two { display:none; }
+
+  /* 오리지널 아이스크림 파인트 */
+  .pro_list {
+    width:100%;
+  }
+  .pro_list > div {
+    width:40%;
+  }
+  .product_conBox > p > span {
+    display:none;
+  }
+
+  /**/
+  /* 우리는 지지합니다. */
+  .support_wrap { margin-top:24px;}
+
+
+  /* footer */
+  .footer_Cl2 { top:10%; }
+  .footer_Logo { width:40%; }
+}
+
+
+
+
+/* 🍓 */
+@media screen and (max-width:530px){
+  .mo_iL_btn_wrap {gap:12px; }
+  .mo_iL_btn_wrap > button > p { font-size:16px; }
+  .footer_ca > li { padding:0 16px; }
+  .copyright { margin-top:10%; }
+}
+@media screen and (max-width:493px){
+  .copyright { margin-top:16%;}
+  .footer_ca > li { padding:0 12px;}
+}
+@media screen and (max-width:438px){
+  .footer_ca > li { padding:0 6px;}
+}
+@media screen and (max-width:416px){
+  .nI_title > h1 { font-size:20px;}
+  .mI_btn { font-size:14px;}
+}
+@media screen and (max-width:400px){
+  .mo_iL_btn_wrap {
+    gap:16px;
+  }
+  .mo_iL_btn_wrap > button {
+    font-size:14px;
+    padding:16px 18px;
+
+  }
+}
+
+
+
+
+
+/* 🍓 */
+@media screen and (max-width:375px){
+  .header_mobile_menu,
+  .header_searchBtn {
+    width:56px;
+    height:56px;
+  }
+  .logo {
+    width:40%;
+  }
+  .mobile_menu_container.view {
+    padding:35% 11%;
+  }
+  .close_btn {
+    width:8%;
+  }
+  .search_close_btn {
+    width:10%;
+  }
+  .mobile_search {
+    gap:3%;
+    border-radius: 0;
+  }
+  .mobile_search.view {
+    height:100vh;
+  }
+  .mobile_search > h1 {
+    font-size:26px;
+  }
+  .mobile_search_form > input {
+    font-size:16px;
+    padding:16px 24px;
+  }
+  /*메인 빌보드*/
+  #main_banner_container {
+    height:730px;
+    background:url("../images/mainBanner_img375.png") bottom/cover;
+  }
+  .mainBanner_txt > h1:nth-child(1) {
+    display:none;
+  }
+  .mainBanner_txt > h1.w375_title {
+    display:block;
+    font-size:52px;
+  }
+  .mainB_p_more > p > span {
+    display:none;
+  }
+  .mainB_p_more {
+    gap:36px;
+  }
+  /*img*/
+  .mainB_cloud_img1 {
+    width:46%;
+    top:38%;
+  }
+  .mainB_cloud_img3 {
+    display:none;
+  }
+  .mainB_cloud_img4 {
+    width:30%;
+  }
+  .mainB_cow_img1 {
+    width:40%;
+    bottom:6%;
+  }
+  
+  /**/
+  /**/
+  /**/
+  /* Tablet Mobile 받아보기&참여하기 */
+  .mo_sec1_icecream { height:227px; }
+  .mo_sec1_icecream > .mo_sec1_IceImg {width:90%; }  
+  .sec1_cloud1_mo, .sec1_cloud2_mo {width:30%; }
+  .mo_sec1_button_boxWrap > article:nth-child(1) { width:100%; }
+  .mo_sec1_button_boxWrap > article {
+    padding:32px;
+    height:132px;
+  }
+  .mo_sec1_doit a.getIce_btn span { display:none; }
+
+  /**/
+  /**/
+  /**/
+  /* 일을 사랑합니다. */
+  #sec2_ice_lov_container > .w1200 { padding:0 24px; }
+  .iL_headerTxt > h1 {
+    width:80%;
+    font-size:24px;
+    text-align:center;
+    margin:auto;
+  }
+  .iL_headerTxt > p { display:none; }
+  .mo_iL_btn_wrap > button > p { font-size:14px; line-height:1.6; }
+  .mo_iL_btn_wrap { gap:12px; }
+  .mo_iL_btn_wrap > button { padding:12px 18px; }
+  .mo_iL_btn_wrap { margin-top:36px; }
+  
+  .iceLov_img_box h1+p > span.span_one { display:none; }
+  .iceLov_img_box h1 { font-size:20px; }
+  .iceLov_img_box h1+p { font-size:14px; }
+  .iceLov_btn { font-size:14px; }
+  .iceLov_btn { margin-top:60px;}
+
+  /**/
+  /* 오리지널 아이스크림 파인트 */
+  .product_nameBox > h1 { font-size:24px; }
+  .product_btn { gap:8px; }
+  .product_btn > p { font-size:14px;} 
+  .product_btn > img { width:20px; }
+  .product_conBox { padding:24px; }
+  .product_list_wrap { margin-top:42px; }
+  .pro_list { height:260px; }
+  .pro_list > div { width:60%;}
+
+  /**/
+  /* 우리는 지지합니다. */
+  #we_support > .w1200 {
+    padding:0 24px;
+  }
+  #we_support > .w1200 > h1 { text-align:center;}
+  .spBox { height:260px; padding:32px; }
+  .spBox:hover .spBox_overlay {
+    opacity: 0;
+    visibility: hidden;
+  }
+  .spBox:hover > .sp_title {
+    opacity: 1;
+    visibility: visible;
+  }
+
+
+  /**/
+  /* NEW 소식 */
+  .nI_title > h1 {
+    font-size:24px;
+    text-align:center;
+    width:100%;
+  }
+  .mI_btn { display:none; }
+  .mI_btn375 {
+    display:block;
+    display:flex;
+    gap:8px;
+    justify-content: center;
+    margin-top:62px;
+    font-size:16px;
+    font-weight: 500;
+  }
+  .mI_btn375 > img {
+    width:20px; 
+  }
+
+  /**/
+  /* footer */
+  .footer_Logo { width:80%; }
+  .footer_ca {
+    /* background-color: #F1F2F5;
+    padding:6px 12px;
+    border-radius: 20px; */
+    margin-top:32px;
+    /* flex-direction: column; */
+    gap:8px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer_ca > li:not(:last-child)::after { display:none; }
+  .footer_ca > li {
+    padding:0; 
+    width:150px;
+    text-align: center;
+    padding:6px 0;
+    background-color: #F1F2F5;
+    border-radius: 10px;
+  }
+
+  .footer_info {
+    margin-top:16%;
+    text-align:center;
+  }
+  .footer_info li:nth-child(5) span {
+    width:100%;
+    display:block;
+    margin-bottom:6px;
+  } 
+  .copyright {
+    font-size:12px;
+    margin-top:40px;
+  }
+
+}
