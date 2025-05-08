@@ -178,7 +178,7 @@ function billboardmove() {
     // 마우스 좌표값 구하기
     let posX = e.pageX; // 조금씩 이동하게 하기 위해서, 값을 나눔
     let posY = e.pageY;
-    if (window.innerWidth <= 1440 && window.innerWidth > 1240) {
+    if (window.innerWidth > 1240) { //window.innerWidth <= 1440 && 
 
       document.querySelector(".mainB_ice_img1").style.bottom = (18 + (posY / 80)) + "%";
 
